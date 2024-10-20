@@ -1,0 +1,323 @@
+/* Global Styles */
+body {
+  margin: 0;
+  background-color: #99d691;   /* Primary Color */
+  color: #2E2E2E;   /* Text Color */
+}
+
+header {
+  background-color: #c608a6;  /* Secondary Color */
+  color: #5B04A4;
+  padding: 20px 0;
+  text-align: center;
+  font-family: 'Poppins', sans-serif;
+  font-size: 2rem;
+  font-weight: bold;
+  letter-spacing: 1px;
+}
+
+h1 {
+  margin-bottom: 20px;
+  color: #fbba73;  /* Secondary Color */
+  font-family: cursive;
+}
+
+header h1:hover{
+  color: #99d691;
+}
+
+nav a {
+  margin: 0 15px;
+  color: white;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+nav a:hover {
+  color: #99d691;  /* Accent Color */
+}
+
+#about {
+  background-color:  #1B1F4A; /* Decorative neutral */
+  border-radius: 30px;
+  padding: 50px;
+  margin-top: 30px;
+  margin-left: 50px;
+  margin-right: 50px;
+  font-family: 'Inter', sans-serif;
+  text-align: center;
+  box-shadow: 0 5px 10px rgba(0, 0, 0, 0.1);
+  color: #1B1F4A; /* Navy blue for readability */
+}
+
+#resume {
+  margin-top: 50px;
+  text-align: center;
+  background-color: #1B1F4A;
+  padding: 20px;
+  border-radius: 12px;
+  color: white;
+}
+
+.resume-video {
+  max-width: 300px;
+  border-radius: 12px;
+  transition: transform 0.3s ease;
+  cursor: pointer;
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.2);
+}
+
+.resume-video:hover {
+  transform: scale(1.10); /* Hover effect for interactivity */
+}
+
+section {
+  padding: 50px;
+  margin-top: 30px;
+  margin-left: 50px;
+  margin-right: 50px;
+  text-align: center;
+  background-color: #1B1F4A;  /* Secondary Neutral */
+  border-radius: 30px;
+  font-family: 'Inter', sans-serif;
+}
+
+/* .about-container {
+  display: none;
+  background-color: #fff1e7;
+  border-radius: 12px;
+  padding: 15px;
+  margin-top: 10px;
+  box-shadow: 0 5px 10px rgba(0, 0, 0, 0.1);
+  color: black;
+  transition: max-height 0.4s ease-in-out;
+  max-width: 500px;
+  margin-left: auto;
+  margin-right: auto;
+} */
+
+p {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  text-align: justify;
+  color: white;
+}
+
+h2 {
+  margin-bottom: 20px;
+  color: #fbba73;  /* Secondary Color */
+  font-family: 'Poppins', sans-serif;
+}
+
+/* Circle Skill Bubbles */
+.skill-bubbles {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 20px;
+}
+
+.circle {
+  background-color: white;
+  color: #c608a6;
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 1rem;
+  font-weight: bold;
+  box-shadow: 0 5px 10px rgba(0, 0, 0, 0.1);
+  transition: transform 0.3s, box-shadow 0.3s;
+}
+
+.circle:hover {
+  background-color: #fbba73;
+  color: white;
+  transform: scale(1.1);
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+}
+
+/* Projects Section */
+.project {
+  margin: 20px 0;
+  text-align: left;
+  max-width: 1000px;
+  margin-left: auto;
+  margin-right: auto;
+  background-color: white;  /* Light Accent */
+  border-radius: 12px;
+  padding: 15px;
+  box-shadow: 0 5px 10px rgba(0, 0, 0, 0.1);
+}
+
+h3 {
+  margin-bottom: 20px;
+  color: #1B1F4A;  /* Secondary Color */
+  font-family: 'Poppins', sans-serif;
+}
+
+.toggle-btn {
+  color: #5B04A4;  /* Vibrant Accent */
+  cursor: pointer;
+  font-family: 'Poppins', sans-serif;
+  font-weight: bold;
+  text-decoration: underline;
+  font-size: small;
+}
+
+.project-details {
+  display: none;
+  background-color: #e3e2fa;  /* Decorative Neutral */
+  border-radius: 12px;
+  padding: 15px;
+  margin-top: 10px;
+  box-shadow: 0 5px 10px rgba(0, 0, 0, 0.1);
+  color: black;
+  transition: max-height 0.4s ease-in-out;
+}
+
+.project-details p{
+  font-family: 'Times New Roman', Times, serif;
+  text-align: justify;
+  color: #1B1F4A;
+}
+
+/* Button Styles */
+/* button {
+  background-color: #FF5449; 
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+button:hover {
+  background-color: #332e37;  
+} */
+
+/* Certifications Section */
+.certifications {
+  padding: 50px;
+  text-align: center;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  margin: 20px 0;
+  border-radius: 10px;
+}
+
+.certifications h2 {
+  font-size: 2rem;
+  margin-bottom: 30px;
+}
+
+/* Certificate Container */
+.certificate-container {
+  display: flex;
+  align-items: center;
+  justify-content: start;
+  background-color: white;
+  color: #1B1F4A;
+  padding: 20px;
+  margin: 10px auto;
+  max-width: 600px;
+  border-radius: 15px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
+  gap: 20px;
+}
+
+.certificate-container:hover{
+  background-color: #e3e2fa;
+
+}
+
+/* Thumbnail Image */
+.certificate-container img {
+  width: 60px;
+  height: 60px;
+  cursor: pointer;
+  border-radius: 10px;
+  transition: transform 0.2s ease;
+}
+
+.certificate-container img:hover {
+  transform: scale(1.1); /* Slight zoom effect on hover */
+}
+
+/* .certificate-container p {
+  font-size: 1.2rem;
+  margin: 0;
+  color: #333;
+  flex-grow: 1;
+  text-align: left;
+} */
+
+/* Hover effect on the entire container */
+.certificate-container:hover {
+  transform: scale(1.05);
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+}
+
+/* Contact Me Section */
+.contact {
+  background-color: #1B1F4A;
+  font-family: 'Poppins', sans-serif;
+  padding: 50px;
+  margin-top: 30px;
+  margin-left: 50px;
+  margin-right: 50px;
+  border-radius: 30px;
+  text-align: center;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.contact h2 {
+  color: #fbba73;
+  font-size: 2rem;
+  margin-bottom: 20px;
+}
+
+/* Contact Links */
+.contact-links {
+  display: flex;
+  justify-content: center; /* Center the icons horizontally */
+  gap: 30px; /* Space between icons */
+  margin-top: 20px;
+}
+
+/* Icons Styling */
+.contact-links a img {
+  width: 120px;
+  height: 60px;
+  transition: transform 0.2s ease;
+  cursor: pointer;
+}
+
+.contact-links a img:hover {
+  transform: scale(1.1); /* Slight zoom on hover */
+}
+
+/* Footer */
+footer {
+  background-color: #c608a6;  /* Secondary Color */
+  padding: 2px;
+  margin-top: 30px;
+}
+footer h2{
+  color: white;
+  text-align: center;
+}
+
+/* Responsive Design */
+@media (max-width: 600px) {
+  nav a {
+    display: block;
+    margin: 10px 0;
+  }
+
+  .project {
+    margin: 10px;
+  }
+}
